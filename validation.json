@@ -1,0 +1,222 @@
+{
+  "version": "LiftMix v3 compact concealed cam bench prototype",
+  "config_mm": {
+    "chamber_radius": 17.5,
+    "body_top": 24.0,
+    "seat_z": 2.5,
+    "outlet_radius": 8.0,
+    "outside_radius": 23.1,
+    "lift": 6.0,
+    "fill_headspace": 2.0,
+    "pin_radius": 1.7,
+    "cam_clearance": 0.2,
+    "body_thread_pitch": 2.1,
+    "bottle_thread_pitch": 2.7,
+    "bottle_thread_crest_radius": 12.75,
+    "bottle_thread_root_radius": 14.29
+  },
+  "dimensions": {
+    "height_mm": 54.599999999999994,
+    "diameter_mm": 46.2,
+    "lift_mm": 6,
+    "fill_z_mm": 22.0,
+    "usable_volume_ml": 14.599809742250876,
+    "lid_z": 24.75,
+    "lid_top": 27.75,
+    "pin_z": 30.0,
+    "guide_top": 41.4,
+    "crown_top": 43.2
+  },
+  "mesh_checks": {
+    "body": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 29233.575906635484,
+      "extents_mm": [
+        46.20000076293945,
+        46.20000076293945,
+        35.19999980926514
+      ]
+    },
+    "guide_lid": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 7646.239883145133,
+      "extents_mm": [
+        42.79999923706055,
+        42.79999923706055,
+        23.300001144409183
+      ]
+    },
+    "twist_crown": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 11954.648859545972,
+      "extents_mm": [
+        46.20000076293945,
+        46.20000076293945,
+        24.85000038146973
+      ]
+    },
+    "plunger": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 2657.861398759465,
+      "extents_mm": [
+        23.0,
+        23.0,
+        28.799999952316284
+      ]
+    },
+    "cross_pin": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 199.0923555134484,
+      "extents_mm": [
+        3.4000015258789062,
+        3.4000000953674316,
+        22.0
+      ]
+    },
+    "lid_lock_key": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 18.344790295202817,
+      "extents_mm": [
+        3.4000000953674316,
+        3.3999996185302734,
+        3.3999996185302734
+      ]
+    },
+    "top_retainer": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 1129.8287240414263,
+      "extents_mm": [
+        22.600000381469727,
+        22.600000381469727,
+        5.400001525878906
+      ]
+    },
+    "bottle_gasket_TPU": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 207.6287796894469,
+      "extents_mm": [
+        26.799999237060547,
+        26.799999237060547,
+        1.0
+      ]
+    },
+    "lid_gasket_TPU": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 119.49148206010068,
+      "extents_mm": [
+        37.29999923706055,
+        37.29999923706055,
+        1.0
+      ]
+    },
+    "valve_gasket_TPU": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 270.1921001881637,
+      "extents_mm": [
+        22.399999618530273,
+        22.399999618530273,
+        1.5
+      ]
+    },
+    "stem_seal_TPU": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 17.21022596010631,
+      "extents_mm": [
+        8.0,
+        8.0,
+        1.0
+      ]
+    },
+    "thread_test_receiver": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 12021.668376748343,
+      "extents_mm": [
+        40.0,
+        40.0,
+        44.29999923706055
+      ]
+    },
+    "bottle_thread_coupon": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 3993.115691488931,
+      "extents_mm": [
+        33.400001525878906,
+        33.400001525878906,
+        12.699999809265137
+      ]
+    }
+  },
+  "physical_tests": "Not performed",
+  "motion_checks": {
+    "poses": 37,
+    "max_overlap_mm3": {
+      "body / guide_lid": 0,
+      "body / twist_crown": 0,
+      "body / plunger": 0,
+      "body / cross_pin": 0,
+      "body / lid_lock_key": 0,
+      "body / top_retainer": 0,
+      "guide_lid / twist_crown": 0,
+      "guide_lid / plunger": 0,
+      "guide_lid / cross_pin": 0,
+      "guide_lid / lid_lock_key": 0,
+      "guide_lid / top_retainer": 0,
+      "twist_crown / plunger": 0,
+      "twist_crown / cross_pin": 0,
+      "twist_crown / lid_lock_key": 0,
+      "twist_crown / top_retainer": 0,
+      "plunger / cross_pin": 0,
+      "plunger / lid_lock_key": 0,
+      "plunger / top_retainer": 0,
+      "cross_pin / lid_lock_key": 0,
+      "cross_pin / top_retainer": 0,
+      "lid_lock_key / top_retainer": 0
+    }
+  },
+  "thread_insertion_checks": {
+    "poses_per_joint": 25,
+    "max_overlap_mm3": {
+      "bottle": 0,
+      "refill_lid": 0,
+      "retainer": 0
+    }
+  },
+  "crown_installation": {
+    "state": "closed valve; top retainer removed",
+    "sampled_positions": 21,
+    "max_overlap_mm3": 0
+  },
+  "seals": {
+    "bottle_compression_mm": 0.25,
+    "lid_compression_mm": 0.25,
+    "valve_compression_mm": 0.4,
+    "stem_radial_squeeze_mm": 0.2,
+    "note": "Nominal CAD squeeze only. TPU sealing has not been tested."
+  }
+}
